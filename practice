@@ -1,0 +1,17 @@
+var num=Number(prompt("Enter a number"));
+var num2=Number(prompt("Enter a Number"));
+var option = prompt("Select 1) num x 3 or select) num x 5");
+var result;
+
+if(option==1){
+    result=num*3;
+    console.log(num + " x 3 ");
+
+}
+if(option==2){
+    result = num*5;
+    console.log(num + "x 5 ");
+}
+
+
+console.log("The reult is: " + result);
