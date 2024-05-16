@@ -1,10 +1,7 @@
 console.log("Calculator");
 
 function calculate(){
-// Definitions and Functions for Simple Calculator
-// prompt() is a method used to display a dialog box that prompts the user for input.
-// variable is a container for storing data values. It allows you to label data with a descriptive name, so you can use that name to refer to the data later in the program.
-//
+
 var num= Number(prompt("Enter first number:"));
 var num2= Number(prompt("Enter second Number:"));
 
